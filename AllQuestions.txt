@@ -25,3 +25,15 @@ SQL
 deadlocks in sql 
 
 A deadlock in SQL occurs when two or more transactions are blocked forever, each waiting for the other to release a resource. It can lead to a standstill in the database, and proper transaction management and isolation levels are crucial to avoid deadlocks.
+
+Index in sql
+Kind of structure which is used to retrive data fastly.
+
+clustered index
+stored data in physical order (ascending or descendin).
+we can add kn single or composite
+
+Non Clustered Index
+is kind of structure which point b structure data.internally creates new data.
+
+
