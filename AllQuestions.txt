@@ -7,5 +7,14 @@ If we go to the domain of ERP . here I am handling one of important module of ma
 Which deals with the what students has been achieved at the end of course and programs .
 ------------------------------------------------------------------------
 C# .NET Questions
+
 What is MVC Framework ?
-M-Model has domain data ; V-View has responsible for rendering the contents ; C- Controller has ability to interact user with view b
+M-Model has domain data ; 
+V-View has responsible for rendering the contents ;
+C- Controller has ability to interact user with view b
+************
+Routings In MVC
+MVC Works on Routing Engine .
+User sends the request to routing engine.
+if request is available on route table. then it goes to controller and renders the view.
+If not available then it return 404 error
