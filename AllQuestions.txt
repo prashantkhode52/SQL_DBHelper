@@ -1,7 +1,7 @@
 Personal Introductions
 
 Good afternoon. 
-I am prashant Khode . I have graduated from JDIET , Yavatmal. Currently working with mastersoft Erp Nagpur. 
+I am prashant Khode . I have graduated in electronics and tele communications from JDIET , Yavatmal. Currently working with mastersoft Erp Nagpur. 
 Here I have been working from last 2.3 years in microsoft technologies asp.net mvc ,Sql Server  with UI components like html , javascript ,jquery.
 If we go to the domain of ERP . here I am handling one of important module of master soft that is OBE (OUTCOME BASED EDUCATION).
 Which deals with the what students has been achieved at the end of course and programs .
