@@ -36,4 +36,5 @@ we can add kn single or composite
 Non Clustered Index
 is kind of structure which point b structure data.internally creates new data.
 
+Fragmentation is the kind of process which makes the empty spaces in the pages because of delete of process.
 
