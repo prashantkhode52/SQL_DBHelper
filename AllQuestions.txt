@@ -42,10 +42,13 @@ Kind of structure which is used to retrive data fastly.
 
 clustered index
 stored data in physical order (ascending or descendin).
-we can add kn single or composite
+we can add index on single or composite key 
 
 Non Clustered Index
-is kind of structure which point b structure data.internally creates new data.
+is kind of structure which point b structure data.internally creates new data.It is like textbox index has page number from start to end for perticular chapter .
+
+In summary, a table with a primary key (which is a unique constraint) will have a clustered index by default, and you cannot add another clustered index to that table. Additional non-clustered indexes can be added as needed to support various query patterns.
+
 ********************
 Fragmentation  - 
 ////Fragmentation is the kind of process which makes the empty spaces in the pages because of delete of process.
