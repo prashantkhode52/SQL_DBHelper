@@ -46,6 +46,8 @@ we can add index on single or composite key
 
 Non Clustered Index
 is kind of structure which point b structure data.internally creates new data.It is like textbox index has page number from start to end for perticular chapter .
+This index allows SQL Server to quickly locate and retrieve the relevant rows without scanning the entire table.
+Eg. If User Need to Search City . It will point out the the cities from indexes tables and base on the key values , Quickly retrive cities from Main table.
 
 In summary, a table with a primary key (which is a unique constraint) will have a clustered index by default, and you cannot add another clustered index to that table. Additional non-clustered indexes can be added as needed to support various query patterns.
 
