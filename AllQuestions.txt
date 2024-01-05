@@ -13,6 +13,17 @@ M-Model has domain data ;
 V-View has responsible for rendering the contents ;
 C- Controller has ability to interact user with view b
 ************
+What is Razor View Engine ?
+Razor View engine is a markup syntax which helps us to write HTML and server-side code in web pages using C# or VB.NET.
+It is server-side markup language however it is not at all a programming language.
+
+# It must be always enclosed in @{ ... }
+# Semicolon “;” must be used to ending statements
+# Files have .cshtml extension.
+# Variables are declared with var keyword
+# Inline expressions (variables and functions) start with @
+# C# code is case sensitive
+************
 Routings In MVC
 MVC Works on Routing Engine .
 User sends the request to routing engine.
