@@ -46,6 +46,10 @@ we can add kn single or composite
 
 Non Clustered Index
 is kind of structure which point b structure data.internally creates new data.
-
-Fragmentation is the kind of process which makes the empty spaces in the pages because of delete of process.
+********************
+Fragmentation  - 
+////Fragmentation is the kind of process which makes the empty spaces in the pages because of delete of process.
+Fragmentation can refer to dividing the whole table data into smaller chunks
+and storing them in different database or databases, or to the logical disorder and physical gaps of data pages in indexes. 
+Fragmentation can impact the efficiency of backups, storage, I/O, memory, CPU, and query plans
 
