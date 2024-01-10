@@ -97,3 +97,12 @@ Fragmentation can refer to dividing the whole table data into smaller chunks
 and storing them in different database or databases, or to the logical disorder and physical gaps of data pages in indexes. 
 Fragmentation can impact the efficiency of backups, storage, I/O, memory, CPU, and query plans
 
+______________________________
+Joins.
+1)Inner Join
+ourer join
+1)outer join 
+has 3types
+left right 
+full outer join
+3)self Join
