@@ -1,5 +1,7 @@
 Personal Introductions
-
+Good Afternoon,
+My name is Prashant, I am having 2.3 years of experience in Education Domain . I am having experience in Developement ,Maintainance and trouble shooting of the applications using MVC.Net  Framework with SQL Server as back end .I am also having good Knowledge in Html,Ajax,Jquery 
+----------------------
 Good afternoon. 
 I am prashant Khode . I have graduated in electronics and tele communications from JDIET , Yavatmal. Currently working with mastersoft Erp Nagpur. 
 Here I have been working from last 2.3 years in microsoft technologies asp.net mvc ,Sql Server  with UI components like html , javascript ,jquery.
