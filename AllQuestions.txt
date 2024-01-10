@@ -50,6 +50,7 @@ Inbuilt Action filter are [OUTPUTECACHE] ,  [Authorize] , HandleError[View("Erro
 5]OutputCache filter can cache the output of a controller action for a specific duration.
 ********************************************
  What is the difference between ViewData, ViewBag and TempData?
+All this present in ControllerBase Class.
 Both ViewBag and ViewData are used to communicate between controller and corresponding view. But this communication is only for server call, it becomes null if redirect occurs. So, in short, it's a mechanism to maintain state between controller and corresponding view.
 ViewBag  -only transfers data from controller to view, not visa-versa. ViewBag values will be null if redirection occurs.
 ViewBag.Name="Prashant";   // It dynamic object. 
