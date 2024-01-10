@@ -23,12 +23,20 @@ It is server-side markup language however it is not at all a programming languag
 # Variables are declared with var keyword
 # Inline expressions (variables and functions) start with @
 # C# code is case sensitive
-************
+**************************
 Routings In MVC
 MVC Works on Routing Engine .
 User sends the request to routing engine.
 if request is available on route table. then it goes to controller and renders the view.
 If not available then it return 404 error
+**************************
+ActionResult
+1]Content Returning Results
+ViewResult,PartialViewResult,PartialViewResult,EmptyResult,JsonResult,FileResult,JavascriptResult
+2]Redirection Results
+RedirectResult,RedirectToRoutResult
+3]Status Results
+HTTPStatusCode,HTTPUnauthorizedResult,HTTPNotFoundResult
 
 ######################
 SQL
