@@ -48,6 +48,11 @@ Inbuilt Action filter are [OUTPUTECACHE] ,  [Authorize] , HandleError[View("Erro
                   Modifying or replacing the result before it gets executed.
 4]ExceptionFilters
 5]OutputCache filter can cache the output of a controller action for a specific duration.
+********************************************
+ What is the difference between ViewData, ViewBag and TempData?
+Both ViewBag and ViewData are used to communicate between controller and corresponding view. But this communication is only for server call, it becomes null if redirect occurs. So, in short, it's a mechanism to maintain state between controller and corresponding view.
+
+TempData - is also a dictionary object that stays for the time of an HTTP Request. So, Tempdata can be used to maintain data between redirects, i.e., from one controller to the other controller.
 
 ######################
 SQL
