@@ -30,13 +30,24 @@ User sends the request to routing engine.
 if request is available on route table. then it goes to controller and renders the view.
 If not available then it return 404 error
 **************************
-ActionResult
+ActionResult(Reffered From https://www.c-sharpcorner.com/article/action-result-in-asp-net-mvc/)
 1]Content Returning Results
 ViewResult,PartialViewResult,PartialViewResult,EmptyResult,JsonResult,FileResult,JavascriptResult
 2]Redirection Results
 RedirectResult,RedirectToRoutResult
 3]Status Results
 HTTPStatusCode,HTTPUnauthorizedResult,HTTPNotFoundResult
+*****************************
+Filters in ASP.Net MVC
+ $$ What are Action Filters in ASP.NET MVC?
+If we need to apply some specific logic before or after action methods, we use action filters. We can apply these action filters to a controller or a specific controller action. Action filters are basically custom classes that provide a means for adding pre-action or post-action behavior to controller actions.
+1]AuthorizationFilters - Authorize filter can be used to restrict access to a specific user or a role.
+2]ActionFilters - Action Filters can be applied to either controller action or controller itself, with the help of action filter we can change the way, the action or controller gets executed.
+Inbuilt Action filter are [OUTPUTECACHE] ,  [Authorize] , HandleError[View("Error.chtml")]
+3]ResultFilters - Result Filters in ASP.NET mvc are specifically designed to work with the result of an action method.
+                  Modifying or replacing the result before it gets executed.
+4]ExceptionFilters
+5]OutputCache filter can cache the output of a controller action for a specific duration.
 
 ######################
 SQL
