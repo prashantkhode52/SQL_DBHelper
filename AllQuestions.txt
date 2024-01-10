@@ -63,6 +63,9 @@ TempData["Name"]= "Prashant" ; // It is also Dictionary objects
 When TempData is used ?
 E.g When a user submits a form, the form data is typically sent to an action method for processing.
 
+--------------------------------
+different between @Model and @model ?
+One is used to declare the strong type that the model is, and the other is used to access the model itself
 
 ######################
 SQL
