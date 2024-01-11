@@ -68,6 +68,13 @@ E.g When a user submits a form, the form data is typically sent to an action met
 --------------------------------
 different between @Model and @model ?
 One is used to declare the strong type that the model is, and the other is used to access the model itself
+--------------------------------------------------
+Key Differences Between IEnumerable and IQueryable in C# ?
+Query Location: The main difference between them is where the query is executed. For IEnumerable, it’s in the client’s memory, whereas for IQueryable, it’s in the remote data source (e.g., a database).
+
+Query Translation: IQueryable can translate the query into a different language (like SQL), which is impossible with IEnumerable.
+
+Suitability: Use IEnumerable for LINQ to Objects and working with in-memory data. Use IQueryable when querying data from a database or other remote sources, as it allows for efficient querying and retrieval.
 
 ######################
 SQL
