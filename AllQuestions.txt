@@ -75,6 +75,10 @@ Query Location: The main difference between them is where the query is executed.
 Query Translation: IQueryable can translate the query into a different language (like SQL), which is impossible with IEnumerable.
 
 Suitability: Use IEnumerable for LINQ to Objects and working with in-memory data. Use IQueryable when querying data from a database or other remote sources, as it allows for efficient querying and retrieval.
+#####################
+WEB API MVC
+Explain the use of dependency injection in ASP.NET MVC.
+-Dependency injection is a design pattern used in ASP.NET MVC to achieve loose coupling and better testability by injecting dependencies into a class rather than creating them within the class.
 
 #####################
 LINQ (Linear Integrated Query)
