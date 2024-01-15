@@ -76,6 +76,13 @@ Query Translation: IQueryable can translate the query into a different language 
 
 Suitability: Use IEnumerable for LINQ to Objects and working with in-memory data. Use IQueryable when querying data from a database or other remote sources, as it allows for efficient querying and retrieval.
 
+#####################
+LINQ (Linear Integrated Query)
+
+First() - It returns the first element of a sequence otherwise gives the exception  if no element is found..
+FirstOrDefault() - It returns the first element of a sequence, or a default value or null if no element is found.
+
+Eg. var result = employeeList.FirstOrDefault || First (e => e.Department == "HR");
 ######################
 SQL
 
