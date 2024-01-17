@@ -117,10 +117,12 @@ Fragmentation can impact the efficiency of backups, storage, I/O, memory, CPU, a
 
 ______________________________
 Joins.
-1)Inner Join
-ourer join
-1)outer join 
-has 3types
-left right 
-full outer join
-3)self Join
+Joins.
+1]Inner Join
+(INNER) JOIN: Returns records that have matching values in both tables
+2]Outer Join
+LEFT (OUTER) JOIN: Returns all records from the left table, and the matched records from the right table
+RIGHT (OUTER) JOIN: Returns all records from the right table, and the matched records from the left table
+FULL (OUTER) JOIN: Returns all records when there is a match in either left or right table
+3]Self Join
+A self join is a regular join, but the table is joined with itself.
