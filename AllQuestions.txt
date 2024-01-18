@@ -75,6 +75,10 @@ Query Location: The main difference between them is where the query is executed.
 Query Translation: IQueryable can translate the query into a different language (like SQL), which is impossible with IEnumerable.
 
 Suitability: Use IEnumerable for LINQ to Objects and working with in-memory data. Use IQueryable when querying data from a database or other remote sources, as it allows for efficient querying and retrieval.
+--------------------------
+Anti-Forgery Token:
+When Forms renders in the browser. The hiden token is created internally and after the submission of forms it checks the same token valid or not . So it Extra layer of security to reduce th cross browser Attacks (Cross-Site Request Forgery )
+
 #####################
 WEB API MVC
 Explain the use of dependency injection in ASP.NET MVC.
