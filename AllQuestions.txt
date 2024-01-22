@@ -83,6 +83,11 @@ When Forms renders in the browser. The hiden token is created internally and aft
 WEB API MVC
 Explain the use of dependency injection in ASP.NET MVC.
 -Dependency injection is a design pattern used in ASP.NET MVC to achieve loose coupling and better testability by injecting dependencies into a class rather than creating them within the class.
+------------------------
+HttpResponseMessage and its uses
+
+HttpResponseMessage works with HTTP protocol to return the data with status/error. When we talk about response messages in Web API, we simply represent the receiving of some information from the method(s) that we created in Web API so that we can know what kind of response we will get, such as - success or failure. We can use HTTPResponseMessage to return the data as well as some user friendly messages.
+
 
 #####################
 LINQ (Linear Integrated Query)
