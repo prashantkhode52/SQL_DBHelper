@@ -65,6 +65,10 @@ TempData["Name"]= "Prashant" ; // It is also Dictionary objects
 When TempData is used ?
 E.g When a user submits a form, the form data is typically sent to an action method for processing.
 
+Q1. What are the differences between ViewData ViewBag TempData and session?
+Both are almost similar and it helps us to transfer the data from controller to view whereas TempData also works during the current and subsequent requests (which means redirecting from one page to another)..
+Q2. Which is better ViewBag or ViewData?
+ ViewData is faster than ViewBag.
 --------------------------------
 different between @Model and @model ?
 One is used to declare the strong type that the model is, and the other is used to access the model itself
