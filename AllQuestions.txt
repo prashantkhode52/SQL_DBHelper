@@ -139,3 +139,11 @@ RIGHT (OUTER) JOIN: Returns all records from the right table, and the matched re
 FULL (OUTER) JOIN: Returns all records when there is a match in either left or right table
 3]Self Join
 A self join is a regular join, but the table is joined with itself.
+------------------------------------
+Q. Best Practices For SQL Query Optimization  (https://www.geeksforgeeks.org/best-practices-for-sql-query-optimizations/)
+1. Use Where Clause instead of having
+2. Avoid Queries inside a Loop
+3. Use Select instead of Select *
+4. Add Explain to the Beginning of Queries
+5. Keep Wild cards at the End of Phrases
+6. Use Exist() instead of Count()
