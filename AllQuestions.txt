@@ -72,6 +72,9 @@ Q2. Which is better ViewBag or ViewData?
 --------------------------------
 different between @Model and @model ?
 One is used to declare the strong type that the model is, and the other is used to access the model itself
+-----------------------
+Q. Difference between  @Html.LabelFor() And @Html.TextBoxFor() ?
+-In summary, @Html.LabelFor() is used for generating labels, while @Html.TextBoxFor() is used for generating text input fields in ASP.NET MVC forms. They work together to create a well-structured and accessible form for capturing user input.
 --------------------------------------------------
 Key Differences Between IEnumerable and IQueryable in C# ?
 Query Location: The main difference between them is where the query is executed. For IEnumerable, it’s in the client’s memory, whereas for IQueryable, it’s in the remote data source (e.g., a database).
