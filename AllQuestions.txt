@@ -103,6 +103,16 @@ First() - It returns the first element of a sequence otherwise gives the excepti
 FirstOrDefault() - It returns the first element of a sequence, or a default value or null if no element is found.
 
 Eg. var result = employeeList.FirstOrDefault || First (e => e.Department == "HR");
+
+---
+Difference btween DbContext And DbSet ?
+DbContext is the primary class responsible for interacting with the database in Entity Framework.
+DbSet is a property of the DbContext class representing a collection of entities of a specific type in the database.
+public class MyDbContext : DbContext
+{
+    public DbSet<Customer> Customers { get; set; }
+    public DbSet<Order> Orders { get; set; }
+}
 ######################
 SQL
 
