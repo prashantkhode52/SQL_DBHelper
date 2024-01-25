@@ -151,7 +151,7 @@ and storing them in different database or databases, or to the logical disorder 
 Fragmentation can impact the efficiency of backups, storage, I/O, memory, CPU, and query plans
 
 ______________________________
-Joins.
+Joins. (https://learnsql.com/blog/sql-practice-questions/)
 Joins.
 1]Inner Join
 (INNER) JOIN: Returns records that have matching values in both tables
