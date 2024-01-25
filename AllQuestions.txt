@@ -95,6 +95,10 @@ When ref keyword is used the data may pass in bi-directional.
 --
 OUT - It is not necessary to initialize parameters before it pass to out.
 When out keyword is used the data only passed in unidirectional.
+
+--------------
+is it possible for abstract class to use interface ?
+Yes, it is absolutely possible for an abstract class to implement an interface in C#. This allows the abstract class to define a contract specified by the interface and provide implementations for its members.
 ##############
 WEB API MVC
 Explain the use of dependency injection in ASP.NET MVC.
