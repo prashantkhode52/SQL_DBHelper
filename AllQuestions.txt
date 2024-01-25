@@ -87,6 +87,15 @@ Anti-Forgery Token:
 When Forms renders in the browser. The hiden token is created internally and after the submission of forms it checks the same token valid or not . So it Extra layer of security to reduce th cross browser Attacks (Cross-Site Request Forgery )
 
 #####################
+OOPS
+What is ref and OUT Kewords in C# ? (https://www.geeksforgeeks.org/difference-between-ref-and-out-keywords-in-c-sharp/)
+ref - 
+It is necessary the parameters should initialize before it pass to ref.
+When ref keyword is used the data may pass in bi-directional.
+--
+OUT - It is not necessary to initialize parameters before it pass to out.
+When out keyword is used the data only passed in unidirectional.
+##############
 WEB API MVC
 Explain the use of dependency injection in ASP.NET MVC.
 -Dependency injection is a design pattern used in ASP.NET MVC to achieve loose coupling and better testability by injecting dependencies into a class rather than creating them within the class.
