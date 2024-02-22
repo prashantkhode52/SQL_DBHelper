@@ -88,6 +88,8 @@ When Forms renders in the browser. The hiden token is created internally and aft
 
 #####################
 OOPS
+The ref and out keywords in C# are both used for passing arguments to methods by reference, allowing the method to modify the original value of the argument.
+
 What is ref and OUT Kewords in C# ? (https://www.geeksforgeeks.org/difference-between-ref-and-out-keywords-in-c-sharp/)
 ref - 
 It is necessary the parameters should initialize before it pass to ref.
