@@ -168,6 +168,16 @@ FULL (OUTER) JOIN: Returns all records when there is a match in either left or r
 3]Self Join
 A self join is a regular join, but the table is joined with itself.
 ------------------------------------
+The SQL UNION Operator
+
+The UNiON Return only distinct values
+The UNION ALL return all values (include duplicate also)
+Eg.
+SELECT column_name(s) FROM table1
+UNION
+SELECT column_name(s) FROM table2;
+
+-----------------------------------------------
 Q. Best Practices For SQL Query Optimization  (https://www.geeksforgeeks.org/best-practices-for-sql-query-optimizations/)
 1. Use Where Clause instead of having
 2. Avoid Queries inside a Loop
