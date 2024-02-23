@@ -187,6 +187,21 @@ WHERE condition
 GROUP BY column_name(s)
 HAVING condition
 ORDER BY column_name(s);
+-------------------------------------------
+--CROSS APPLY AND OUTER APPLY
+--In summary, OUTER APPLY includes all rows from the outer table (It acts like LEFT JOIN),
+--while CROSS APPLY only includes matching rows (It acts like INNER JOIN).
+
+--apply a function to each row of a table expression 
+--and combine the results into a single result set.
+
+ UA_NO  | UA_DEPTNO
+  6     | 4,8,24,25,7,23,9,1,6,3,10,28,15,29,16,19,20,26,11,2,17,13,14,12,21,22,30,18,27,5
+
+select *
+from User_Acc CROSS  apply dbo.fn_split(( UA_DEPTNO ),',')  
+WHERE UA_NO=1
+-- IT Will devide the result into 30rows with as a Value column
 
 -----------------------------------------------
 Q. Best Practices For SQL Query Optimization  (https://www.geeksforgeeks.org/best-practices-for-sql-query-optimizations/)
