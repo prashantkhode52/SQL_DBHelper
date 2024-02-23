@@ -176,6 +176,17 @@ Eg.
 SELECT column_name(s) FROM table1
 UNION
 SELECT column_name(s) FROM table2;
+------------------------------------
+***The Group by function strucure** 
+The GROUP BY statement is often used with aggregate functions (COUNT(), MAX(), MIN(), SUM(), AVG()) to group the result-set by one or more columns.
+The HAVING clause was added to SQL because the WHERE keyword cannot be used with aggregate functions.
+
+SELECT column_name(s)
+FROM table_name
+WHERE condition
+GROUP BY column_name(s)
+HAVING condition
+ORDER BY column_name(s);
 
 -----------------------------------------------
 Q. Best Practices For SQL Query Optimization  (https://www.geeksforgeeks.org/best-practices-for-sql-query-optimizations/)
