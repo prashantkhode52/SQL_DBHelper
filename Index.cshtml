@@ -2,6 +2,20 @@
     Layout = null;
 }
 
+ @RenderBody();
+ @RenderSection("scripts", required: false)
+@section Scripts{
+
+   <script src="~/Scripts/WriteDownYourScript"></script>
+
+
+
+    <script>
+        $(document).ready(function () {
+            CO.Init();
+        });
+    </script>
+}
 <!DOCTYPE html>
 
 <html>
