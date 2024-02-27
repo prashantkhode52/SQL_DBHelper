@@ -26,7 +26,8 @@ CREATE PROC tblEmployeeForm_Insert_Update
 @P_GenderId int,
 @P_PhoneNumber varchar(12),
 @P_Email varchar(50),
-@P_Password nvarchar(50)
+@P_Password nvarchar(50),
+@R_OUT       INT OUT         
 )
 AS
 BEGIN
