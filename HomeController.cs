@@ -54,5 +54,47 @@ namespace SampleProject.Controllers
             //return Json(new { data = SessionList }, JsonRequestBehavior.AllowGet);
             return View();
         }
+
+       public ActionResult SaveData(BloomCategoryModel ObjBloomCategory)
+                {
+                    object ret = 0;
+                    try
+                    {
+                        SqlParameter[] objParams = null;
+                        //Changing Parameters for each form.
+                        objParams = new SqlParameter[12];
+                        objParams[0] = new SqlParameter("@BloomCategoryId", ObjBloomCategory.BloomCategoryId);
+                        objParams[1] = new SqlParameter("@BloomCategoryName", ObjBloomCategory.BloomCategoryName);
+                        objParams[2] = new SqlParameter("@BloomCategoryDescription", ObjBloomCategory.BloomCategoryDescription);
+                        objParams[3] = new SqlParameter("@SequenceNo", ObjBloomCategory.SequenceNo);
+                        objParams[4] = new SqlParameter("@FinalStatusId", ObjBloomCategory.FinalStatusId);
+                        objParams[5] = new SqlParameter("@OrganizationId", Convert.ToInt32(Session["OrganizationId"]));
+                        objParams[6] = new SqlParameter("@ModifiedBy", Session["USERID"]);
+                        objParams[7] = new SqlParameter("@IPAddress", Session["ipAddress"]);
+                        objParams[8] = new SqlParameter("@ActiveStatus", ObjBloomCategory.IsActive);
+                        objParams[9] = new SqlParameter("@MACAddress", Session["macAddress"]);
+                        objParams[10] = new SqlParameter("@BloomsTags", ObjBloomCategory.BloomsTags);
+
+                        objParams[11] = new SqlParameter("@P_OUT", SqlDbType.Int);
+                        objParams[11].Direction = ParameterDirection.Output;
+
+                        ret = objSQLHelper.ExecuteNonQuerySP("sptblBloomCategoryMaster_Insert_Update", objParams, true);
+                        return Json(ret);
+                    }
+                    catch (Exception ex)
+                    {
+                        string Msg, Desc;
+                        Msg = ex.Message;
+                        Desc = ex.StackTrace;
+                        if (Convert.ToInt32(Session["IsError"]) != 0)
+                        {
+                            return RedirectToAction("CustomError", "Error", new { message = Msg, Desc = Desc });
+                        }
+                        else
+                        {
+                            return RedirectToAction("Index", "Error", new { message = Msg, Desc = Desc });
+                        }
+                    }
+                }
     }
 }
