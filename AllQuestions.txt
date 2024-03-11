@@ -57,23 +57,22 @@ Inbuilt Action filter are [OUTPUTECACHE] ,  [Authorize] , HandleError[View("Erro
 In ASP.NET MVC, filters are used to perform logic before or after an action method is executed. There are several types of filters available, each serving a specific purpose. Here's a brief overview of each filter type along with a predefined filter example:
 
 Authorization Filters:
-
 These filters are used to authenticate and authorize requests before executing an action method.
 Example: [Authorize] attribute restricts access to authenticated users.
-Action Filters:
 
+Action Filters:
 Action filters are executed before and after an action method is called.
 Example: [HttpPost] attribute ensures that the action method can only be called via HTTP POST requests.
-Result Filters:
 
+Result Filters:
 Result filters are executed before and after the execution of action results.
 Example: [OutputCache] attribute caches the output of an action method for a specified duration.
-Exception Filters:
 
+Exception Filters:
 These filters handle exceptions that occur during the execution of an action method.
 Example: [HandleError] attribute handles exceptions and displays custom error views.
-Resource Filters:
 
+Resource Filters:
 Resource filters are executed at the beginning and end of each request.
 Example: [ResponseCache] attribute caches the HTTP response for a specified duration.
 Predefined filter example:
