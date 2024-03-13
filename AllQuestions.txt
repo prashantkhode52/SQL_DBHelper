@@ -30,7 +30,25 @@ Routings In MVC
 MVC Works on Routing Engine .
 User sends the request to routing engine.
 if request is available on route table. then it goes to controller and renders the view.
-If not available then it return 404 error
+If not available then it return 404 error.
+n C#, routing refers to the process of determining how an application responds to client requests.
+1]Convention-based routing:
+Uses a set of conventions or rules to map URLs to controller actions.
+Typically defined in the application startup file (e.g., RouteConfig.cs in ASP.NET MVC).
+2]Attribute-based routing:
+Allows developers to define routes using attributes directly on controller actions or controllers.
+
+[RoutePrefix("api/books")]
+public class BooksController : ApiController
+{
+    Meaning - ["MethotName/{IdParamter}"]
+    [Route("author/{author}")]
+    public IHttpActionResult GetBooksByAuthor(string author)
+    {
+        // Code to retrieve books by author
+    }
+}
+
 **************************
 ActionResult(Reffered From https://www.c-sharpcorner.com/article/action-result-in-asp-net-mvc/)
 1]Content Returning Results
