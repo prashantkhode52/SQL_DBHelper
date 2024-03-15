@@ -176,7 +176,10 @@ Queue	                    Queue stores the values in FIFO style (First In First 
 Hashtable	            Hashtable stores key and value pairs. It retrieves the values by comparing the hash value of the keys.
 
 BitArray	            BitArray manages a compact array of bit values, which are represented as Booleans, where true indicates that the bit is on (1) and false indicates the bit is off (0).
-
+   E.g       // Creating a BitArray 
+        BitArray myBitArr = new BitArray(5); 
+        myBitArr[0] = true; 
+        myBitArr[1] = true; 
 
 
 OOPS
