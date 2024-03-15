@@ -180,6 +180,8 @@ BitArray	            BitArray manages a compact array of bit values, which are r
         BitArray myBitArr = new BitArray(5); 
         myBitArr[0] = true; 
         myBitArr[1] = true; 
+   // To get the value of index at index 2 
+        Console.WriteLine(myBitArr.Get(2)); 
 
 
 OOPS
